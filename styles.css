@@ -36,10 +36,13 @@ header{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    min-width: 360px;
+    min-width: 320px;
     height: 334px;
     text-align: center;
-    background: ;
+    background: linear-gradient(207.8deg, #201e1C 16.69%,
+     #f7931a 100%);
+
+
     
 }
 header img{
@@ -59,4 +62,19 @@ header img{
     align-self: center;
 
 }
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white)
 
+}
+
+.header--title-containerp{
+    margin: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+    
+}
