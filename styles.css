@@ -6,31 +6,34 @@
 5. otros complementos
 */
 :root {
-     /* colores*/
-     --bitcoin-orange: #F7931A;
-     --soft-orange: #ffe9d5;
-     --secondary-blue: #1a9af7;
-     --soft-blue: #e7f5ff;
-     --warm-black: #201E1C;
-     --black: #282623;
-     --grey: #bababa;
-     --off-white: #faf8f7;
-     --just-white: #fff;
+    /* colores*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
 
 
 }
-*{
+
+{
     /* 2. modelo de caja*/
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 
 }
-html{
+
+html {
     font-size: 62.5%;
     font-family: 'Josefin Sans', sans-serif;
 }
-header{
+
+header {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -40,19 +43,20 @@ header{
     height: 334px;
     text-align: center;
     background: linear-gradient(207.8deg, #201e1C 16.69%,
-     #f7931a 100%);
+            #f7931a 100%);
 
 
-    
 }
-header img{
+
+header img {
     width: 150px;
     height: 24px;
     margin-top: 60px;
     align-self: center;
 
 }
-.header--title-container{
+
+.header--title-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -62,19 +66,40 @@ header img{
     align-self: center;
 
 }
-.header--title-container h1{
+
+.header--title-container h1 {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white)
-
 }
 
-.header--title-containerp{
-    margin: 25px;
-    font-size: 24px;
+.header--title-container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-orange);
-    
+
+}
+
+.header--title-container .heder--button {
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+
 }
