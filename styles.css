@@ -20,10 +20,10 @@
 
 }
 
-{
+*{
     /* 2. modelo de caja*/
     box-sizing: border-box;
-    margin: 0%;
+    margin: 5%;
     padding: 0%;
 
 }
@@ -40,56 +40,55 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: 600px;
     text-align: center;
-    background: linear-gradient(207.8deg, #201e1C 16.69%,
-            #f7931a 100%);
+    background: linear-gradient(207.8deg, #201E1C 16.69%,#f7931a 100%);
 
 
 }
 
 header img {
-    width: 150px;
-    height: 24px;
+    width: 500px;
+    height: 350px;
     margin-top: 60px;
     align-self: center;
 
 }
 
-.header--title-container {
+.header--title--container {
     width: 90%;
-    min-width: 288px;
-    max-width: 900px;
-    height: 218px;
-    margin-top: 40px;
+    min-width: 588px;
+    max-width: 988px;
+    height: 418px;
+    margin-top: 20px;
     text-align: center;
     align-self: center;
 
 }
 
-.header--title-container h1 {
+.header--title--container h1 {
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white)
 }
 
-.header--title-container p {
-    margin-top: 25px;
-    font-size: 1.4rem;
-    font-weight: 500;
+.header--title--container p {
+    margin-top: 45px;
+    font-size: 1.8rem;
+    font-weight: 200;
     line-height: 1.8rem;
     color: var(--soft-orange);
 
 }
 
-.header--title-container .heder--button {
+.header--title--container .header--button {
     position: absolute;
     left: calc(50% - 118px);
-    top: 270px;
+    top: 480px;
     display: block;
     margin-top: 35px;
-    padding: 15px;
+    padding: 0px;
     width: 229px;
     height: 48px;
     background-color: var(--off-white);
@@ -101,5 +100,14 @@ header img {
     font-weight: bold;
     text-decoration: none;
     color: var(--black);
+
+}
+.header--button span {
+    display: inline-block;
+    width: 13px;
+    height:8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/down-arrow.svg');
+    
 
 }
